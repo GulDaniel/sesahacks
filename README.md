@@ -3,7 +3,7 @@
 <h2>Procedimentos gerais</h2>
 sudo su -
 <br>#obter permissões
-<br>apt-get update && apt install isc-dhcp-server, apache2, bind9, bind9utils, bind9-doc, net-tools, vsftpd
+<br>apt-get update && apt install isc-dhcp-server apache2 bind9 bind9utils bind9-doc net-tools vsftpd -y
 <br>#instalar servidores DHCP, HTTP, DNS e FTP
 <h2>Transferindo os scripts DHCP e DNS com FTP</h2>
 nano /etc/vsftpd.conf
